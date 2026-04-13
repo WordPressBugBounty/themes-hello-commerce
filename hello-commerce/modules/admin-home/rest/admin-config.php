@@ -179,11 +179,14 @@ class Admin_Config extends Rest_Base {
 	}
 
 	private function get_elementor_editor_url( ?int $page_id, string $active_tab ): string {
+		$active_kit_id = Utils::elementor()->kits_manager->get_active_id();
+
 		$url = add_query_arg(
 			[
 				'post' => $page_id,
 				'action' => 'elementor',
 				'active-tab' => $active_tab,
+				'active-document' => $active_kit_id,
 			],
 			admin_url( 'post.php' )
 		);

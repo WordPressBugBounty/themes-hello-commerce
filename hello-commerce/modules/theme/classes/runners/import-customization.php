@@ -5,9 +5,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-use Elementor\App\Modules\ImportExport\Runners\Import\Import_Runner_Base;
+use Elementor\App\Modules\ImportExportCustomization\Runners\Import\Import_Runner_Base;
 use HelloCommerce\Modules\Theme\Classes\Runners\Traits\WooCommerce_Settings_Import;
 
-class Import extends Import_Runner_Base {
+class Import_Customization extends Import_Runner_Base {
 	use WooCommerce_Settings_Import;
 }

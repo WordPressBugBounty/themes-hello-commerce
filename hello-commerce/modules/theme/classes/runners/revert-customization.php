@@ -5,9 +5,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-use Elementor\App\Modules\ImportExport\Runners\Revert\Revert_Runner_Base;
+use Elementor\App\Modules\ImportExportCustomization\Runners\Revert\Revert_Runner_Base;
 use HelloCommerce\Modules\Theme\Classes\Runners\Traits\WooCommerce_Settings_Revert;
 
-class Revert extends Revert_Runner_Base {
+class Revert_Customization extends Revert_Runner_Base {
 	use WooCommerce_Settings_Revert;
 }

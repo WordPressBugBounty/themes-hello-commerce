@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'elementor/hello-commerce',
-        'pretty_version' => 'dev-main',
-        'version' => 'dev-main',
-        'reference' => 'e9befde981e836dbad20f721598cb867779b6e07',
+        'pretty_version' => '1.0.x-dev',
+        'version' => '1.0.9999999.9999999-dev',
+        'reference' => 'c9cfaf20bcd8e2437d828f5248386051069a068d',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'elementor/hello-commerce' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'e9befde981e836dbad20f721598cb867779b6e07',
+            'pretty_version' => '1.0.x-dev',
+            'version' => '1.0.9999999.9999999-dev',
+            'reference' => 'c9cfaf20bcd8e2437d828f5248386051069a068d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

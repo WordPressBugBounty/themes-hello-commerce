@@ -81,7 +81,7 @@ final class Theme {
 			$class_to_load = $class_name;
 		}
 
-		if ( ! class_exists( $class_to_load ) ) {
+		if ( ! class_exists( $class_to_load ) && ! trait_exists( $class_to_load ) ) {
 			$filename = strtolower(
 				preg_replace(
 					[ '/^' . __NAMESPACE__ . '\\\/', '/([a-z])([A-Z])/', '/_/', '/\\\/' ],
