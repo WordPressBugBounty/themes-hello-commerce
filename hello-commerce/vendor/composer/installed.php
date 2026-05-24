@@ -3,7 +3,7 @@
         'name' => 'elementor/hello-commerce',
         'pretty_version' => '1.0.x-dev',
         'version' => '1.0.9999999.9999999-dev',
-        'reference' => 'c9cfaf20bcd8e2437d828f5248386051069a068d',
+        'reference' => '02b415819f2a5ab4837735ecbbfd1092507b078a',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'elementor/hello-commerce' => array(
             'pretty_version' => '1.0.x-dev',
             'version' => '1.0.9999999.9999999-dev',
-            'reference' => 'c9cfaf20bcd8e2437d828f5248386051069a068d',
+            'reference' => '02b415819f2a5ab4837735ecbbfd1092507b078a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

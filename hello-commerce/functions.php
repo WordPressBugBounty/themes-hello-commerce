@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-define( 'HELLO_COMMERCE_ELEMENTOR_VERSION', '1.0.2' );
+define( 'HELLO_COMMERCE_ELEMENTOR_VERSION', '1.0.3' );
 define( 'EHP_THEME_SLUG', 'hello-commerce' );
 
 define( 'HELLO_COMMERCE_PATH', get_template_directory() );

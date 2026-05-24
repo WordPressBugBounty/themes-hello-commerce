@@ -3,8 +3,8 @@
 Contributors: elementor
 Requires at least: 6.0
 Tested up to: 6.5
-Stable tag: 1.0.2
-Version: 1.0.2
+Stable tag: 1.0.3
+Version: 1.0.3
 Requires PHP: 7.4
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -104,6 +104,9 @@ No, switching to Hello Commerce is completely optional.
 Report security bugs through the Patchstack Vulnerability Disclosure Program. The Patchstack team validates, triages, and handles vulnerabilities. Report a security vulnerability: https://patchstack.com/database/wordpress/theme/hello-commerce/vdp
 
 == Changelog ==
+
+= 1.0.3 - 2026-05-24 =
+* Fix: CSS improvements for Elementor widgets
 
 = 1.0.2 - 2025-04-13 =
 * Tweak: Updated theme homepage.
